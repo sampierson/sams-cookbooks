@@ -1,0 +1,9 @@
+<VirtualHost *:80>
+    ServerName itdoesnothing.com
+    DocumentRoot /u/apps/itdoesnothing/current/public
+    <Directory /u/apps/itdoesnothing/current/public>
+        Allow from all
+        Options -MultiViews
+    </Directory>
+</VirtualHost>
+
