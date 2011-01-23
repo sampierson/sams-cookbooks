@@ -1,0 +1,9 @@
+<VirtualHost *:80>
+    ServerName fotomin.com
+    DocumentRoot /u/apps/fotomin/current/public
+    <Directory /u/apps/fotomin/current/public>
+        Allow from all
+        Options -MultiViews
+    </Directory>
+</VirtualHost>
+
